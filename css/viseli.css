@@ -1,0 +1,65 @@
+.seli-link{
+    border: #000 solid 1px;
+    margin-bottom: 15px;
+    padding: 10px;
+    position: relative;
+}
+.seli-link .active_li{
+    font-family: "Lato";
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    height: 15px;
+    overflow: hidden;
+    display: inline-block;
+}
+.seli-link .arrow_li{
+    background: url(../../images/dd2.png) no-repeat left center;
+    width: 20px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+    padding-right: 9px;
+}
+.drop_list{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 32px;
+    border: #000 solid 1px;
+    background: #fff;
+    z-index: 100;
+}
+#account-menu .drop_list li{display: block;margin-bottom: 0;padding: 0;}
+#account-menu  .drop_list li a{
+    display: block;
+    padding: 3px 10px;
+    width: auto;
+    border: none;
+    text-decoration: none;
+}
+.drop_list li a:hover{
+    background: #f07f80;
+    color:#fff;
+    text-decoration: none;
+}
+.drop_list li ul{
+    list-style: none;
+    padding: 0;
+}
+.drop_list li{display: block;margin-bottom: 0;    padding: 3px 10px;}
+.drop_list li a{text-decoration: none;}
+.drop_list li ul li a{
+    padding: 3px 10px 3px 20px;
+}
+.drop_list li ul li ul li a{
+    padding: 3px 10px 3px 30px;
+}
+
+.sidebar .drop_list li a{  padding: 3px 10px; }
